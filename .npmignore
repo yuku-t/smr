@@ -1,0 +1,8 @@
+.editorconfig
+.gitattributes
+.publish
+.travis.yml
+npm-debug.log
+src
+test
+typings

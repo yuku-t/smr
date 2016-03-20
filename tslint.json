@@ -1,0 +1,26 @@
+{
+  "rules": {
+    "align": [true, "parameters", "arguments", "statements"],
+    "class-name": true,
+    "eofline": true,
+    "indent": [true, "spaces"],
+    "interface-name": [true, "never-prefix"],
+    "max-line-length": 120,
+    "no-any": false,
+    "no-arg": true,
+    "no-consecutive-blank-lines": true,
+    "no-constructor-vars": true,
+    "no-eval": true,
+    "no-require-imports": true,
+    "no-trailing-whitespace": true,
+    "no-unreachable": true,
+    "no-unused-expression": true,
+    "no-unused-variable": true,
+    "object-literal-sort-keys": true,
+    "quotemark": [true, "sigle", "avoid-escape"],
+    "semicolon": true,
+    "trailing-comma": true,
+    "use-strict": true,
+    "whitespace": true
+  }
+}

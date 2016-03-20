@@ -1,0 +1,27 @@
+{
+  "name": "smr",
+  "private": true,
+  "version": "0.0.0",
+  "description": "A sheet music renderer",
+  "scripts": {
+    "clean": "rm -fr lib",
+    "compile": "npm run clean && tsc --outDir lib",
+    "setup": "typings install",
+    "test": "tslint src/**/*.ts && tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/yuku-t/smr.git"
+  },
+  "author": "Yuku Takahashi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuku-t/smr/issues"
+  },
+  "homepage": "https://github.com/yuku-t/smr#readme",
+  "devDependencies": {
+    "tslint": "^3.15.1",
+    "typescript": "^1.8.10",
+    "typings": "^1.3.3"
+  }
+}
